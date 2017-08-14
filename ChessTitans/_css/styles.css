@@ -1,0 +1,33 @@
+#holder{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.whiteBox{
+    background-color:#E5DFA1;
+    height: 80px;
+    width: 80px;
+}
+.brownBox{
+    background-color:#8c0615;
+    height: 80px;
+    width: 80px;
+}
+.brownBox:hover{
+    border: 2px dashed #FFFAF3;
+}
+.whiteBox:hover{
+    border: 2px dashed #FFFAF3;
+}
+.chessIcons{
+    padding-top: 12px;
+}
+.selectedBox{
+    border: ridge #000000;
+    background-color:#ffdf05;
+}
+.TrapBox{
+    border: 5px dotted #EF404A;
+    background-color:#FF851B;
+}
